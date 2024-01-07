@@ -36,6 +36,15 @@ When("user selects a time", async function() {
 When("user selects a place", async function() {
     return clickElement(this.page, "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(3)");
 });
+When("user selects a place 1", async function() {
+    return clickElement(this.page, "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(4)");
+});
+When("user selects a place 2", async function() {
+    return clickElement(this.page, "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(5)");
+});
+When("user selects a place 3", async function() {
+    return clickElement(this.page, "body > main > section > div.buying-scheme > div.buying-scheme__wrapper > div:nth-child(1) > span:nth-child(6)");
+});
 When("user presses the register button", async function() {
     return clickElement(this.page, "body > main > section > button")
 });
